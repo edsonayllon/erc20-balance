@@ -41,7 +41,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Address: {account}</p>
         <p>
-          balance: {balance / (10**decimals)}
+          balance: {balance / (10**decimals)} sUSD
         </p>
         <button
           className="App-link"
